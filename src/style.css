@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	font-family: Poppins, sans-serif;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+	text-decoration: none;
+	list-style: none;
+}
+.icons {
+	color: #828282 !important;
+	font-family: 'Ubuntu Mono', sans-serif !important;
+	font-size: 12px !important;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 34px;
+}
+.created {
+	color: #a9a9a9;
+	font-family: Montserrat, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	margin-bottom: 80px;
+}
+.created span {
+	font-weight: 700;
+	text-decoration: underline;
+}
+.material-icons-round {
+	font-family: 'Material Icons';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 16px; /* Preferred icon size */
+	display: inline-block;
+	line-height: normal;
+	text-transform: none;
+	letter-spacing: normal;
+	word-wrap: normal;
+	white-space: nowrap;
+	direction: ltr;
+	/* Support for all WebKit browsers. */
+	-webkit-font-smoothing: antialiased;
+	/* Support for Safari and Chrome. */
+	text-rendering: optimizeLegibility;
+	/* Support for Firefox. */
+	-moz-osx-font-smoothing: grayscale;
+}
