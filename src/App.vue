@@ -8,7 +8,7 @@
 <template>
 	<main class="flex min-h-screen">
 		<LeftSide class="w-[237px]" />
-		<RightSide class="w-[calc(100% - 237px)]" />
+		<RightSide class="w-[calc(100% - 237px)] ml-[237px]" />
 	</main>
 </template>
 
